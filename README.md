@@ -1,4 +1,4 @@
-# PyBro - A simple **Py**thon **Bro**wser
+# PyBro - A simple **Py**thon Web **Bro**wser
 
 ## Requirements
 * Python 3+
