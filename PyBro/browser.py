@@ -137,13 +137,13 @@ class Frame(wx.Frame):
 
     def go_back_url(self, e):
         '''Navigate backward from history
-        ''''
+        '''
         if self.browser.GetBackwardHistory():
             self.browser.GoBack()
 
     def go_forward_url(self, e):
         '''Navigate forward from history
-        ''''
+        '''
         if self.browser.GetForwardHistory():
             self.browser.GoForward()
     #############
@@ -161,7 +161,7 @@ def main():
     '''Runs PyBro
     '''
     app = wx.App()
-    frame = Frame(None, 'PyBro')
+    Frame(None, 'PyBro')
     app.MainLoop()
 
 
